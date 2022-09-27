@@ -1,0 +1,297 @@
+body {
+    background-color: rgb(97, 149, 167);
+    touch-action: none;
+    max-width: 100vw;
+    justify-content: center;
+    align-content: center;
+}
+
+div {
+    display: inline-block;
+}
+
+#game {
+    margin-left: 25%;
+    margin-right: 25%;
+    max-width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(133, 48, 48);
+    border-radius: 25px;
+    
+    
+}
+
+#game-title {
+    display: flex;
+    color: white;
+    font-size: 48px;
+    margin-top: 3%;
+    margin-left: 50px;
+
+}
+
+
+
+img {
+    height: 50px;
+    width: 50px;
+}
+#leaderboard-button {
+    background-color: rgb(133, 48, 48);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.leaderboard {
+    position: fixed;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 0.80rem;
+    color: rgb(233, 233, 233);
+    /*width:70%;*/
+    visibility: hidden;
+    display: block;
+    max-height: 100vh;
+    border: 0;
+    padding: 20px;
+    margin-top: 10%;
+    background-color: rgb(199, 103, 39); 
+    z-index: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.scroll {
+    overflow: scroll;
+    max-height: 40vh;
+}
+
+#exitLeaderbaordButton {
+    cursor: pointer;
+    border: solid;
+    border-width: 1px;
+}
+
+#exitLeaderbaordButton:hover {
+    color: lightgray;
+}
+
+
+.gameFeedback {
+    position: fixed;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(233, 233, 233);
+    /*width:70%;*/
+    display: none;
+    height:12%;
+    border: 0;
+    padding: 20px;
+    margin-top: 10%;
+    background-color: rgb(199, 103, 39); 
+    z-index: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.gameFeedbackLogin {
+    position: fixed;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 0.80rem;
+    color: rgb(233, 233, 233);
+    /*width:70%;*/
+    visibility: visible;
+    display: block;
+    height:25%;
+    border: 0;
+    padding: 20px;
+    margin-top: 10%;
+    background-color: rgb(199, 103, 39); 
+    z-index: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+}
+
+.textField {
+    background-color: rgb(199, 103, 39);
+    border-color: rgb(233, 233, 233);
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    color: rgb(233, 233, 233);
+    padding-left: 3px;
+    margin-left: 10px;
+    font-size: 1.0rem;
+}
+
+.loginButton {
+
+    border-color: rgb(233, 233, 233);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    font-size: large;
+
+}
+
+.loginButton:hover {
+    color: lightgray;
+    border-color: lightgray;
+
+}
+
+#errorMessage {
+    color: rgb(192, 32, 32);
+    font-size:1rem;
+    visibility: hidden;
+}
+
+#board-container {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1px;
+    
+}
+
+.square {
+    border: 2px solid;
+    min-width: 60px;
+    min-height: 60px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+
+}
+#keyboard-container {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.keyboard-row {
+    display: flex;
+    margin-top: 1%;
+    touch-action: manipulation;
+}
+  
+  
+.keyboard-row button {
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px 15px 15px;
+    margin: 3px;
+    font-size: 14px;
+    text-transform: capitalize;
+    cursor: pointer;
+    user-select: none;
+}
+
+button {
+    background-color: rgb(199, 103, 39);
+    border: none;
+    color: white;
+    display:  inline-block;
+    border-radius: 25px;
+}
+#gameMessage {
+    font-size: 24px;
+    visibility: hidden;
+    margin-bottom: 1%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+@media (max-width:  399px) {
+    #game {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+
+    .gameFeedback {
+        margin-top: 60%;
+    }
+    .gameFeedbackLogin {
+        margin-top: 60%;
+        height:50%;
+    }
+
+    .keyboard-row button {
+        padding: 13px 9px 13px 9px;
+
+    }
+}
+
+@media (max-width:  944px) {
+    #game {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .gameFeedback {
+        margin-top: 40%;
+    }
+
+    .gameFeedbackLogin {
+        margin-top: 30%;
+        height:32%;
+    }
+
+
+
+    .keyboard-row button {
+        padding: 13px 9px 13px 9px;
+
+    }
+}
+
+
+
+/* uncomment this and see effect by moving mouse over square or touching square on a phone */
+/*
+.square:hover {
+    background-color: rgb(200,200,200);
+}
+*/
+
+/* uncomment these to see effect - visit on phone more likely than browser */
+/*
+.keyboard-row {
+  display: flex;
+  width: 100%;
+}
+
+
+.keyboard-row button {
+  flex-grow: 1;
+}

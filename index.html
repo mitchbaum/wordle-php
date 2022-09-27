@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CS3910 HW4: Wordle PHP Version</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  
+  <body>
+    <!--<input type='file' id="files" name="files[]"></input>-->
+    <div id="game">
+      <div id="game-title">
+        WORDLE<span><button id="leaderboard-button"><img src="leaderboard.png"></button></span>
+      </div>
+
+      <div id="gameMessage">You win!</div>
+      <div class = "overlay gameFeedback" id = "areYouSure">
+        <div id="areYouSureText"><span style=font-size:0.80rem;> ARE YOU SURE YOU WANT A NEW WORD? </span><br><br><span id="sureYes" style="cursor: pointer;">YES</span>&nbsp;&nbsp;&nbsp;&nbsp;<span id="sureNo" style="cursor: pointer;">NO</span></div>
+      </div>
+      <div class = "overlay leaderboard" id="leaderboard">
+        <span style=font-size:1.50rem;> Leaderboard </span>
+        <br>
+        <button id="exitLeaderbaordButton">Exit</button>
+        <br>
+        
+
+        <div class="row scroll">
+          <div class="column left">
+            <h2>Player</h2>
+            <div class="">
+              <p id="players"></p>
+            </div>
+          </div>
+
+          <div class="column middle" style=" margin-left: 80px;">
+              <h2>Games Played</h2>
+              <div class="">
+                <p id="games-played"></p>
+              </div>
+          </div>
+          <div class="column right" style="margin-left: 20px;">
+              <h2>Wins</h2>
+              <div class="">
+                <p id="wins"></p>
+              </div>
+          </div>
+        </div>
+        
+        
+
+      </div>
+      <div class = "overlay gameFeedbackLogin" id = "login">
+        <div id="loginText">
+          <span style=font-size:1.50rem;> LOGIN </span>
+          <br>
+          <span style=font-size:.75rem;>If you don't have an account, <br>enter a username and password to create one.</span>
+          <br><br><br>
+          <span>USERNAME</span>
+          <input type="text" class="textField" id="usernameInput"> </input>
+          <br><br>
+          <span>PASSWORD</span>
+          <input type="text" class="textField" id="passwordInput"> </input>
+          <br><br><br>
+          <span class="loginButton" id="loginButton" style="cursor: pointer;">SUBMIT</span>
+          <span class="loginButton" id="createButton" style="cursor: pointer;">CREATE</span>
+          <br><br>
+          <div id="errorMessage">Error</div>
+        </div>
+      </div>
+      <div id="board-container">
+        <div id="board">
+            <div class="square" id = 0></div>	  
+            <div class="square" id = 1></div>
+            <div class="square" id = 2></div>
+            <div class="square" id = 3></div>
+            <div class="square" id = 4></div>
+            <div class="square" id = 5></div>
+            <div class="square" id = 6></div>
+            <div class="square" id = 7></div>
+            <div class="square" id = 8></div>
+            <div class="square" id = 9></div>	  	    
+            <div class="square" id = 10></div>
+            <div class="square" id = 11></div>
+            <div class="square" id = 12></div>
+            <div class="square" id = 13></div>
+            <div class="square" id = 14></div>
+            <div class="square" id = 15></div>		  	    
+            <div class="square" id = 16></div>		  	    
+            <div class="square" id = 17></div>
+            <div class="square" id = 18></div>
+            <div class="square" id = 19></div>		  	    
+            <div class="square" id = 20></div>
+            <div class="square" id = 21></div>
+            <div class="square" id = 22></div>
+            <div class="square" id = 23></div>
+            <div class="square" id = 24></div>		  	    
+            <div class="square" id = 25></div>
+            <div class="square" id = 26></div>
+            <div class="square" id = 27></div>
+            <div class="square" id = 28></div>
+            <div class="square" id = 29></div>
+        </div>
+      </div>
+
+      <div id="keyboard-container">
+        <div class="keyboard-row" id="top">
+            <button id=q>q</button>
+            <button id=w>w</button>
+            <button id=e>e</button>
+            <button id=r>r</button>
+            <button id=t>t</button>
+            <button id=y>y</button>
+            <button id=u>u</button>
+            <button id=i>i</button>
+            <button id=o>o</button>
+            <button id=p>p</button>
+        </div>
+        <div class="keyboard-row" id="middle">
+            <button id=a>a</button>
+            <button id=s>s</button>
+            <button id=d>d</button>
+            <button id=f>f</button>
+            <button id=g>g</button>
+            <button id=h>h</button>
+            <button id=j>j</button>
+            <button id=k>k</button>
+            <button id=l>l</button>
+            <button>New</button>
+        </div>
+        <div class="keyboard-row" id="bottom">
+            <button id="submit">Submit</button>	  
+            <button id=z>z</button>
+            <button id=x>x</button>
+            <button id=c>c</button>
+            <button id=v>v</button>
+            <button id=b>b</button>
+            <button id=n>n</button>
+            <button id=m>m</button>
+            <button id="delete">Del</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,134 @@
+[11-Mar-2022 22:43:22 UTC] in if statement 2
+[11-Mar-2022 22:43:22 UTC] encrypted = ™¡h]√Y{∏‹π≤˙¸
+[11-Mar-2022 22:43:22 UTC] PHP Notice:  Undefined variable: pwEncrypt in /Users/mitchellbaumgartner/Desktop/Informatics Project/Wordle PHP Version/main.php on line 68
+[11-Mar-2022 22:43:22 UTC] sending value: "success"
+[11-Mar-2022 22:43:22 UTC] in if statement 3
+[11-Mar-2022 22:43:22 UTC] index = 7925
+[11-Mar-2022 22:43:22 UTC] type index = string
+[11-Mar-2022 22:43:22 UTC] gameId = teeee
+[11-Mar-2022 22:43:22 UTC] checkIndex() newWonWords = 
+[11-Mar-2022 22:43:22 UTC] Array
+(
+    [0] => 
+)
+
+[11-Mar-2022 22:43:22 UTC] value = 
+[11-Mar-2022 22:43:22 UTC] NEW generated game state:
+
+[11-Mar-2022 22:43:22 UTC] Array
+(
+    [gameId] => teeee
+    [guessesMade] => 0
+    [wordToGuess] => tolus
+)
+
+[11-Mar-2022 22:43:22 UTC] 0
+[11-Mar-2022 22:43:22 UTC] NEW sending encrypted game state: "fa6eeabfd6e9d2833d211dbd2f38bf387969a7bc934f597d47ee5bab8f45bf56dbd395ebd48065f0dcf07c5c54fc48f907aa6be0409cb569536c24017a83e9becd2cd15f61ca6697eac667fcf69cf67bb39d9022442de0cbb02608d1dd1ee4e09b870d34bc0cb1ad7b730309a5bce8cc"
+[11-Mar-2022 22:45:43 UTC] in if statement 2
+[11-Mar-2022 22:45:43 UTC] encrypted = oç±»ºáWï»´SiÊm]ÄHñœÉPÛ<£ﬁpVÍû’-â[∏›VÅΩö⁄†^©ÁKNàäLÂÜß—j∏—Q°‘´ øjHÒé‰OÛ¸´⁄”|i
+[11-Mar-2022 22:45:43 UTC] type of encryptedstring
+[11-Mar-2022 22:45:43 UTC] PHP Warning:  SQLite3::exec(): near &quot;ÔøΩÔøΩ&quot;: syntax error in /Users/mitchellbaumgartner/Desktop/Informatics Project/Wordle PHP Version/main.php on line 72
+[11-Mar-2022 22:45:43 UTC] sending value: "success"
+[11-Mar-2022 22:45:44 UTC] in if statement 3
+[11-Mar-2022 22:45:44 UTC] index = 6678
+[11-Mar-2022 22:45:44 UTC] type index = string
+[11-Mar-2022 22:45:44 UTC] gameId = assdaa
+[11-Mar-2022 22:45:44 UTC] checkIndex() newWonWords = 
+[11-Mar-2022 22:45:44 UTC] Array
+(
+    [0] => 
+)
+
+[11-Mar-2022 22:45:44 UTC] value = 
+[11-Mar-2022 22:45:44 UTC] NEW generated game state:
+
+[11-Mar-2022 22:45:44 UTC] Array
+(
+    [gameId] => assdaa
+    [guessesMade] => 0
+    [wordToGuess] => scour
+)
+
+[11-Mar-2022 22:45:44 UTC] 0
+[11-Mar-2022 22:45:44 UTC] NEW sending encrypted game state: "d49f7740d9bad025adfc40478be99a01428af242034c0d7e5cfe28d13579bbdca836bd76b83185336289bfb0a46b0cae18b49720b9c4931bb3a99c1bea4eada84095121d66d4e3ffbf98efa935b7f30fed72ccab0ee8e7593e451d9151d6452b0a9edf287081273f957c81469a40c4b2"
+[11-Mar-2022 22:47:36 UTC] in if statement 1
+[11-Mar-2022 22:47:36 UTC] sending value: "Incorrect username or password."
+[11-Mar-2022 22:47:36 UTC] sending value: "Incorrect username or password."
+[11-Mar-2022 22:47:38 UTC] in if statement 2
+[11-Mar-2022 22:47:38 UTC] encrypted = ìz3Û¥ˇ–ÁBëy≈ÊBß“I ü∑´ÀÚzE¥¿H·÷—"l_±b CÅrr'	ıÄî›¶X'a `Zﬁ:6‰ fôß<f÷{§¬»◊¡$Æ
+[11-Mar-2022 22:47:38 UTC] type of encryptedstring
+[11-Mar-2022 22:47:38 UTC] PHP Warning:  SQLite3::exec(): near &quot;Íïò5ÔøΩÔøΩ&quot;: syntax error in /Users/mitchellbaumgartner/Desktop/Informatics Project/Wordle PHP Version/main.php on line 72
+[11-Mar-2022 22:47:38 UTC] sending value: "success"
+[11-Mar-2022 22:47:38 UTC] in if statement 3
+[11-Mar-2022 22:47:38 UTC] index = 1203
+[11-Mar-2022 22:47:38 UTC] type index = string
+[11-Mar-2022 22:47:38 UTC] gameId = assdaa
+[11-Mar-2022 22:47:38 UTC] checkIndex() newWonWords = 
+[11-Mar-2022 22:47:38 UTC] Array
+(
+    [0] => 
+)
+
+[11-Mar-2022 22:47:38 UTC] value = 
+[11-Mar-2022 22:47:38 UTC] NEW generated game state:
+
+[11-Mar-2022 22:47:38 UTC] Array
+(
+    [gameId] => assdaa
+    [guessesMade] => 0
+    [wordToGuess] => capes
+)
+
+[11-Mar-2022 22:47:38 UTC] 0
+[11-Mar-2022 22:47:38 UTC] NEW sending encrypted game state: "f348e98787b25acc12d5c03a3b590b19ab2e1c10bf5501e7b7909dfe6884d8eefed208a1156ab5650b16f6f6abf00be41f1edf7e0b8528cee0f67d69aaa1d30c393ac9b9d2161ee96ed269b46468eb0c96281e0a9466f1dfd94907c66f02cb03d4ebfe4b9740b0bf44a9d9178c177b86"
+[11-Mar-2022 22:50:52 UTC] in if statement 2
+[11-Mar-2022 22:50:52 UTC] sending value: "success"
+[11-Mar-2022 22:50:52 UTC] in if statement 3
+[11-Mar-2022 22:50:52 UTC] index = 5031
+[11-Mar-2022 22:50:52 UTC] type index = string
+[11-Mar-2022 22:50:52 UTC] gameId = boomeeee
+[11-Mar-2022 22:50:52 UTC] checkIndex() newWonWords = 
+[11-Mar-2022 22:50:52 UTC] Array
+(
+    [0] => 
+)
+
+[11-Mar-2022 22:50:52 UTC] value = 
+[11-Mar-2022 22:50:52 UTC] NEW generated game state:
+
+[11-Mar-2022 22:50:52 UTC] Array
+(
+    [gameId] => boomeeee
+    [guessesMade] => 0
+    [wordToGuess] => musca
+)
+
+[11-Mar-2022 22:50:52 UTC] 0
+[11-Mar-2022 22:50:52 UTC] NEW sending encrypted game state: "46a9c4e82247e4450a8c43246db6ab6f769335a167ab1f172e257e790dbe81c404e947d1439e889f8482c91bd2ac9051fcf1318eab3ca4ba7cb12ea41dd9c37191fde555c79940702966e904222d967198a5c2f3c001f3da74de73ef86fb920a824dad58abb7fd4c7f6565cab99526de"
+[11-Mar-2022 22:51:04 UTC] queryResult = [{"loginID":"jim","gamesPlayed":93,"gamesWon":43},{"loginID":"err","gamesPlayed":0,"gamesWon":0},{"loginID":"er","gamesPlayed":0,"gamesWon":1},{"loginID":"mitch","gamesPlayed":4,"gamesWon":0},{"loginID":"test","gamesPlayed":2,"gamesWon":0},{"loginID":"boom","gamesPlayed":5,"gamesWon":0},{"loginID":"nnn","gamesPlayed":2,"gamesWon":1},{"loginID":"mn","gamesPlayed":2,"gamesWon":0},{"loginID":"bbb","gamesPlayed":1,"gamesWon":1},{"loginID":"bnbn","gamesPlayed":2,"gamesWon":0},{"loginID":"assd","gamesPlayed":5,"gamesWon":3},{"loginID":"ccc","gamesPlayed":86,"gamesWon":43},{"loginID":"gaga","gamesPlayed":3,"gamesWon":1},{"loginID":"boomd","gamesPlayed":2,"gamesWon":0},{"loginID":"jimdddd","gamesPlayed":1,"gamesWon":0},{"loginID":"teeee","gamesPlayed":1,"gamesWon":0},{"loginID":"boomeeee","gamesPlayed":1,"gamesWon":0}]
+[11-Mar-2022 22:51:12 UTC] in if statement 1
+[11-Mar-2022 22:51:12 UTC] sending value: {"loginID":"jim","gamesPlayed":93,"gamesWon":43}
+[11-Mar-2022 22:51:12 UTC] sending value: {"loginID":"jim","gamesPlayed":93,"gamesWon":43}
+[11-Mar-2022 22:51:12 UTC] in if statement 3
+[11-Mar-2022 22:51:12 UTC] index = 2770
+[11-Mar-2022 22:51:12 UTC] type index = string
+[11-Mar-2022 22:51:12 UTC] gameId = jim
+[11-Mar-2022 22:51:12 UTC] checkIndex() newWonWords = 
+[11-Mar-2022 22:51:12 UTC] Array
+(
+    [0] => 
+)
+
+[11-Mar-2022 22:51:12 UTC] value = 
+[11-Mar-2022 22:51:12 UTC] NEW generated game state:
+
+[11-Mar-2022 22:51:12 UTC] Array
+(
+    [gameId] => jim
+    [guessesMade] => 0
+    [wordToGuess] => foamy
+)
+
+[11-Mar-2022 22:51:12 UTC] 0
+[11-Mar-2022 22:51:12 UTC] NEW sending encrypted game state: "b447660dbe44686eefb697037489b4bd99ca354331b0be3b3e6408c24507938a745459dda6ede6b06f3ef8863d4a85acfdf617dc95e0a0b0881301e029a4aecc3d00d29c175d28520e47c30f7613ead099ff1344c1c565b964b0d22dca840d7bf766a8e5bf91b403672cf95a5609a719"
+[11-Mar-2022 22:51:12 UTC] queryResult = [{"loginID":"jim","gamesPlayed":94,"gamesWon":43},{"loginID":"err","gamesPlayed":0,"gamesWon":0},{"loginID":"er","gamesPlayed":0,"gamesWon":1},{"loginID":"mitch","gamesPlayed":4,"gamesWon":0},{"loginID":"test","gamesPlayed":2,"gamesWon":0},{"loginID":"boom","gamesPlayed":5,"gamesWon":0},{"loginID":"nnn","gamesPlayed":2,"gamesWon":1},{"loginID":"mn","gamesPlayed":2,"gamesWon":0},{"loginID":"bbb","gamesPlayed":1,"gamesWon":1},{"loginID":"bnbn","gamesPlayed":2,"gamesWon":0},{"loginID":"assd","gamesPlayed":5,"gamesWon":3},{"loginID":"ccc","gamesPlayed":86,"gamesWon":43},{"loginID":"gaga","gamesPlayed":3,"gamesWon":1},{"loginID":"boomd","gamesPlayed":2,"gamesWon":0},{"loginID":"jimdddd","gamesPlayed":1,"gamesWon":0},{"loginID":"teeee","gamesPlayed":1,"gamesWon":0},{"loginID":"boomeeee","gamesPlayed":1,"gamesWon":0}]
